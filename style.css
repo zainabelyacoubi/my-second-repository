@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+span
+{
+color:greenyellow
+}
+#container
+{
+width:60%;/*bij width altijd % gebruiken (responsive)*/
+margin: 0 auto;
+}
+nav
+{
+height:60px;
+line-height:60px;
+background-color:aqua;
+}
+#content
+{
+height:800px;	
+}
+#header/*id is uniek, maar 1 keer gebruiken*/
+{
+background-color: #FF9B9B;
+height: 100vh; /*viewport height: blokhoogte gelijk maken aan hoogte van scherm*/
+padding:20px 10px 20px 10px;/*top right bottom left*/
+margin:20px 10px 50px 20px;/*witruimte tussen de elementen, top right bottom left*/
+border-top:10px solid cadetblue;</*rand*/
+}
+.hetzelfde/*class met punt vooraan, id met hashtag vooraan*/
+{
+	background-color: cadetblue;
+	margin-top:20px;
+	float:left; /*verschuif naar links*/
+	width: 50%; /*centreren*/
+}

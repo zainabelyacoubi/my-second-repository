@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+#header/*id is uniek, maar 1 keer gebruiken*/
+{
+background-color: #F5DEBF;
+height: 150px;
+padding-top: 40px;
+padding-bottom: 0px;
+padding-left: 40px;
+padding-right: 50px;
+margin:20px 70px 20px 70px;
+border:1px solid black;</*rand*/
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+span
+{
+background-color: deeppink;
+color:white;
+}
+#title
+{
+color: darkslategrey;
+font-size: 30px;
+margin-bottom:20px;
+}
+nav
+{
+margin-top:10px;	
+}
